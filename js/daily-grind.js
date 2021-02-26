@@ -11,12 +11,12 @@
 
 let myDate = new Date();
 let myDay = myDate.getDay();
-let today="";
+let today= "";
 
 switch(myDay){
 
         case 3:
-            today = "Wedensday"
+            today = "Wednesday";
 
         break;
 
