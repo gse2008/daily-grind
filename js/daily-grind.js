@@ -29,7 +29,7 @@ function coffeeTemplate(coffee){
     myReturn += `
     <p>
     <img src="${coffee.pic}" alt="${coffee.alt}" id="coffee">
-   <strong id="coffee-highlight" class="feature">${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name}</strong> ${coffee.desc}
+   <strong id="coffee-highlight" class="feature">${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name}</strong>. ${coffee.desc}
 </p>`;
 
     return myReturn;
@@ -45,19 +45,19 @@ switch(myDay){
                 day: "Monday",
                 name: "Bubble Tea",
                 color: "pink",
-                desc: `I like me some BUBBA.`
+                desc: `I like me some BUBBA!`
             };
         break;
 
         case 2:
             today = "Tuesday";
             coffee = {
-                pic: "images/drip.jpg",
-                alt: "A picture of a Drip Coffee",
+                pic: "images/caramel-latte.jpg",
+                alt: "A picture of a Caramel Latte",
                 day: "Tuesday",
-                name: "Drip",
-                color: "brown",
-                desc: `Sometimes you just need the drip.`
+                name: "Caramel Latte",
+                color: "red",
+                desc: `Sweet and tasty!`
             };
         break;
 
@@ -69,55 +69,55 @@ switch(myDay){
                 day: "Wednesday",
                 name: "Drip",
                 color: "brown",
-                desc: `Sometimes you just need the drip.`
+                desc: `Sometimes you just need the drip!`
             };
         break;
 
         case 4:
             today = "Thursday";
             coffee = {
-                pic: "images/drip.jpg",
-                alt: "A picture of a Drip Coffee",
-                day: "Wednesday",
-                name: "Drip",
-                color: "brown",
-                desc: `Sometimes you just need the drip.`
+                pic: "images/cold-brew.jpg",
+                alt: "A picture of a cold-brew",
+                day: "Thursday",
+                name: "Cold Brew",
+                color: "orange",
+                desc: `Refreshing energy!`
             };
         break;
 
         case 5:
-            today = "Wednesday";
+            today = "Friday";
             coffee = {
-                pic: "images/drip.jpg",
-                alt: "A picture of a Drip Coffee",
-                day: "Wednesday",
-                name: "Drip",
-                color: "brown",
-                desc: `Sometimes you just need the drip.`
+                pic: "images/frappaccino.jpg",
+                alt: "A picture of a Frappuccino",
+                day: "Friday",
+                name: "Frappuccino",
+                color: "purple",
+                desc: `Treat yourself!`
             };
         break;
 
         case 6:
-            today = "Wednesday";
+            today = "Saturday";
             coffee = {
-                pic: "images/drip.jpg",
-                alt: "A picture of a Drip Coffee",
-                day: "Wednesday",
-                name: "Drip",
-                color: "brown",
-                desc: `Sometimes you just need the drip.`
+                pic: "images/mocha.jpg",
+                alt: "A picture of a Mocha",
+                day: "Saturday",
+                name: "Mocha",
+                color: "blue",
+                desc: `A mocha is always good!`
             };
         break;
 
         case 0:
-            today = "Wednesday";
+            today = "Sunday";
             coffee = {
-                pic: "images/drip.jpg",
-                alt: "A picture of a Drip Coffee",
-                day: "Wednesday",
-                name: "Drip",
-                color: "brown",
-                desc: `Sometimes you just need the drip.`
+                pic: "images/pumpkin-spice-latte.jpg",
+                alt: "A picture of a Pumpkin Spice Latte",
+                day: "Sunday",
+                name: "Pumpkin Spice Latte",
+                color: "green",
+                desc: `Fall Vibes!`
             };
         break;
 
